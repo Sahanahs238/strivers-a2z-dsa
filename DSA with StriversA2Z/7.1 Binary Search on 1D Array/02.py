@@ -1,5 +1,5 @@
 def lower_bound(nums,x):
-    #smallest in nums greater than or equal to x
+    #smallest index in nums greater than or equal to x
     low = 0
     high = len(nums) - 1
     ans  = len(nums) #default answer is the last element

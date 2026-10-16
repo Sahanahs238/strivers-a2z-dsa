@@ -8,7 +8,10 @@ def subarraysum(arr,k):
             count+=1
         if (Sum - k) in d:
             count += d[Sum-k]
-        d[Sum]=d.get(Sum,0)+1
+        if Sum in d:
+            d[Sum] += 1
+        else:
+            d[Sum] = 1
     return count
 k = int (input("Enter the sum:"))
 arr = list(map(int,input().split()))

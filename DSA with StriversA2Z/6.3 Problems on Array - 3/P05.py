@@ -1,6 +1,6 @@
 def maxlenzero(arr):
     d ={}
-    s = 0
+    s = 0 #prefix sum 
     res = 0
     for i in range(len(arr)):
         s += arr[i]

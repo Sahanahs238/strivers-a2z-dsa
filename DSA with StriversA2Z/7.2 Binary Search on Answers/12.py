@@ -3,11 +3,11 @@ def findkthelement(nums1,nums2,k):
         nums1,nums2=nums2,nums1
     n1 = len(nums1)
     n2 = len(nums2)
-    low = max(0,k-n1)
+    low = max(0, k - n2) 
     high = min(k,n1)
     left = k
     while low <= high :
-        mid1 = (low+high)//2
+        mid1 = (low+high)//2 
         mid2 = left - mid1
         l1,l2 = float('-inf'),float('-inf')
         r1,r2=float('inf'),float('inf')

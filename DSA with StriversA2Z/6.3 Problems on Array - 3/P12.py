@@ -1,11 +1,8 @@
 def countSubarraysWithXorK(arr, k):
     xor_map = {0: 1}
-    
     current_xor = 0
     count = 0
-    
     for num in arr:
-
         current_xor ^= num
         target_xor = current_xor ^ k
         if target_xor in xor_map:

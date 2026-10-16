@@ -1,4 +1,5 @@
 def rearrangesign(nums):
+    #alternate two pointer approach 
     ans = [0]*len(nums)
     pos_idx = 0
     neg_idx = 1
@@ -11,4 +12,4 @@ def rearrangesign(nums):
             neg_idx+=2
     return ans
 nums = list(map(int,input().split()))
-print(rearrangesign(nums))
+print(rearrangesign(nums)) 

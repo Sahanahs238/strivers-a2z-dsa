@@ -9,7 +9,7 @@ def count_occurence(nums,target):
             if nums[mid]>=target:
                 first = mid
                 high = mid-1
-            else:
+            else: 
                 low = mid+1
         return first 
     def last_position():

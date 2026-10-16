@@ -12,7 +12,7 @@ def findmaxgrid(mat):
     m = len(mat[0])
     low =0
     high = m-1
-    while low<=high:
+    while low<=high:  
         mid = (low+high)//2
         row = findmaxincol(mat,mid)
         left = mat[row][mid-1] if mid -1 >=0 else float('-inf')

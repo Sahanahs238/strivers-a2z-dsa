@@ -25,4 +25,4 @@ def count_inversions(nums):
         k+=1
     return count
 nums =[2, 3, 7, 1, 3, 5]
-print(count_inversions(nums))
+print(count_inversions(nums))  

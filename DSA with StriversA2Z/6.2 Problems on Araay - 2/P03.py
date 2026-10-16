@@ -1,4 +1,5 @@
 def sort123(nums):
+    # dutch national flag algorithm
     low = 0
     mid = 0
     high = len(nums)-1

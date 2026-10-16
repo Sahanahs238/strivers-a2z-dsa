@@ -19,11 +19,11 @@ def spiralOrder(matrix):
         for i in range(bottom-1, top-1, -1):
             ans.append(matrix[i][left])
         left += 1
-            
+             
     return ans
 r_count = int(input("Enter number of rows: "))
 print("Enter each row elements separated by space:")
 matrix = [list(map(int, input().split())) for _ in range(r_count)]
 result = spiralOrder(matrix)
-print("Spiral Order Result:")
+print("Spiral Order Result:") 
 print(result)

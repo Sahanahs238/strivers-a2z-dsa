@@ -11,3 +11,4 @@ def merge(intervals):
 raw_numbers = list(map(int, input("Enter numbers separated by spaces: ").split()))
 intervals = [raw_numbers[i:i+2] for i in range(0, len(raw_numbers), 2)]
 print("Merged intervals:", merge(intervals))
+  

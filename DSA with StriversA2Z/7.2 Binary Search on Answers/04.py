@@ -17,7 +17,7 @@ def mindays(bloom_days,m,k):
     high = max(bloom_days)
     ans = max(bloom_days)
     while low<= high:
-        mid = (low+high)//2
+        mid = (low+high)//2                                                                                                                                                             
         if is_possible(bloom_days,mid,m,k):
             ans = mid
             high = mid-1

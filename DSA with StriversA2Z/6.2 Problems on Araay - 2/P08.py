@@ -1,4 +1,5 @@
 def nextpermutation(nums):
+    #narayana panditas algo
     pivot =-1
     n = len(nums)
     for i in range(n-2,-1,-1):
